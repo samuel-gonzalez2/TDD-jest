@@ -1,15 +1,18 @@
 {
   "name": "test-tdd",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "author": "Samuel Gonzalez",
-  "license": "MIT",
   "devDependencies": {
     "jest": "^28.1.0"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samuel-gonzalez2 <samuel.gonzalez@enroutesystems.com>",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "body-parser": "^1.20.0",
     "express": "^4.18.1"
   }
 }
