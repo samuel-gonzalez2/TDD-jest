@@ -1,13 +1,13 @@
 const handlers = ({ axios }) => ({
     get: async (req, res) => {
         const {data} = await axios.get('https://jsonplaceholder.typicode.com/users')
-        res.send(data).status(200)
+        res.status(200).send(data)
     }
 
     , post: async (req, res) => {
         const {body} = req
         const {data} = await axios.post('https://jsonplaceholder.typicode.com/users', body)
-        res.send(data).status(201)
+        res.status(201).send(data)
     }
 
     , put: async (req, res) => {
