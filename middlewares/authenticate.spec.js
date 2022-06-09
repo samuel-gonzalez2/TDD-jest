@@ -4,7 +4,7 @@ describe('Middlewares', () => {
     describe('authenticate', () => {
         it('Should have the ID 1', () => {
             const req = {
-                header: jest.fn().mockReturnValue('1')
+                header: jest.fn().mockReturnValue(1)
             }
             const res = {
                 sendStatus: jest.fn()
